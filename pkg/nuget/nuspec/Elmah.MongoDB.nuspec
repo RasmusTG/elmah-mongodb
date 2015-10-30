@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>elmah.mongodb</id>
-    <version>1.7</version>
+    <id>elmah.mongodb.driver2</id>
+    <version>2.1</version>
     <title>ELMAH on MongoDB (requires manual config)</title>
-    <authors>Simon Green</authors>
+    <authors>Simon Green/Bret Ferrier/Rasmus Tomi-Gottschau</authors>
     <owners>Simon Green</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/CaptainCodeman/elmah-mongodb</projectUrl>
+    <projectUrl>https://github.com/RasmusTG/elmah-mongodb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ELMAH with configuration for getting started quickly on a MongoDB database as the error log. NB requires manual configuration. NOTE: The format of the log files has changed, please use a new collection or clear existing entries before using this version.</description>
     <summary>ELMAH with configuration for getting started quickly on a MongoDB database as the error log. NB requires manual configuration. NOTE: The format of the log files has changed, please use a new collection or clear existing entries before using this version.</summary>
@@ -15,7 +15,7 @@
     <tags>mongodb elmah error logging unhandled exception</tags>
     <dependencies>
       <dependency id="elmah" version="1.2.2" />
-      <dependency id="mongocsharpdriver" version="1.7" />
+      <dependency id="mongocsharpdriver" version="2.1" />
     </dependencies>
   </metadata>
 </package>
